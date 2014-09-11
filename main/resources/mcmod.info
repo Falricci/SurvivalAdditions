@@ -1,0 +1,16 @@
+[
+{
+  "modid": "survivaladditions",
+  "name": "Survival Additions",
+  "description": "Logical additions to survival mode.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Falricci"],
+  "credits": "Falricci",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
