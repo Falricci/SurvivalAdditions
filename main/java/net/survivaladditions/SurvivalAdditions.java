@@ -43,9 +43,9 @@ public class SurvivalAdditions {
 			}
 		};
 		
-		SABlocks.init();
-		SAItems.init();
 		SAToolMaterials.init();
+		SAItems.init();
+		SABlocks.init();
 		SATools.init();
 		GameRegistry.registerWorldGenerator(eventWorldGent, 0);
 	}

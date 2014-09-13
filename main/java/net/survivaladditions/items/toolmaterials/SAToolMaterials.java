@@ -1,5 +1,7 @@
 package net.survivaladditions.items.toolmaterials;
 
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import cpw.mods.fml.relauncher.ReflectionHelper;
@@ -18,6 +20,12 @@ public final class SAToolMaterials {
 		ReflectionHelper.setPrivateValue(ToolMaterial.class, ToolMaterial.GOLD, 1, 5);
 		ReflectionHelper.setPrivateValue(ToolMaterial.class, ToolMaterial.IRON, 3, 5);
 		ReflectionHelper.setPrivateValue(ToolMaterial.class, ToolMaterial.EMERALD, 7, 5);
+		
+		Items.wooden_pickaxe.setHarvestLevel("pickaxe", 0);
+		Items.stone_pickaxe.setHarvestLevel("pickaxe", 1);
+		Items.golden_pickaxe.setHarvestLevel("pickaxe", 1);
+		Items.iron_pickaxe.setHarvestLevel("pickaxe", 3);
+		Items.diamond_pickaxe.setHarvestLevel("pickaxe", 7);
 		
 //		System.out.println("Wood -- Harvest: " + ToolMaterial.WOOD.getHarvestLevel() 
 //						   + "\n        Max Uses:       " + ToolMaterial.WOOD.getMaxUses()

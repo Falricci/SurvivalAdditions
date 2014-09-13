@@ -40,6 +40,7 @@ public final class SABlocks {
 	public static void init() {
 		
 		/*harvest levels
+		 * 
 		 * ----Ore--------lowest Pick--------harvest
 		 * Aluminum			wood				0
 		 * Copper			stone				1
@@ -48,22 +49,45 @@ public final class SABlocks {
 		 * Iron				bronze				2
 		 * Nickel			iron				3
 		 * Manganese		iron				3
+		 * Gold				invar				4
+		 * Vanadium			invar				4
+		 * Lapis			invar				4
+		 * Rhodium			steel				5
+		 * Silver			steel				5
+		 * Redstone			steel				5
+		 * Emerald		 	titanium			6
+		 * Diamond 			titanium			6
+		 * Obsidian			diamond				7
 		 * 
 		 */
 		
 		//adjusts existing ore harvest levels
-		Blocks.iron_ore
+		Blocks.iron_ore.setHarvestLevel("pickaxe", 2);
+		Blocks.lapis_ore.setHarvestLevel("pickaxe", 4);
+		Blocks.gold_ore.setHarvestLevel("pickaxe", 4);
+		Blocks.redstone_ore.setHarvestLevel("pickaxe", 5);
+		Blocks.emerald_ore.setHarvestLevel("pickaxe", 6);
+		Blocks.diamond_ore.setHarvestLevel("pickaxe", 6);
+		Blocks.obsidian.setHarvestLevel("pickaxe", 7);
+		
+		System.out.println("IRON: " + Blocks.iron_ore.getHarvestLevel(0));
+		System.out.println("LAPIS: " + Blocks.lapis_ore.getHarvestLevel(0));
+		System.out.println("GOLD: " + Blocks.gold_ore.getHarvestLevel(0));
+		System.out.println("REDSTONE: " + Blocks.redstone_ore.getHarvestLevel(0));
+		System.out.println("EMERALD: " + Blocks.emerald_ore.getHarvestLevel(0));
+		System.out.println("DIAMOND: " + Blocks.diamond_ore.getHarvestLevel(0));
+		System.out.println("OBSIDIAN: " + Blocks.obsidian.getHarvestLevel(0));
 		
 		//ores
+		blockAluminumOre = new OreBlock("aluminum_ore", 3, 15, 0);
 		blockCopperOre = new OreBlock("copper_ore", 3, 15, 1);
 		blockTinOre = new OreBlock("tin_ore", 3, 15, 1);
 		blockZincOre = new OreBlock("zinc_ore", 3, 15, 1);
-		blockNickelOre = new OreBlock("nickel_ore", 3, 15);
-		blockManganeseOre = new OreBlock("manganese_ore", 3, 15);
-		blockVanadiumOre = new OreBlock("vanadium_ore", 3, 15);
-		blockRhodiumOre = new OreBlock("rhodium_ore", 3, 15);
-		blockAluminumOre = new OreBlock("aluminum_ore", 3, 15, 0);
-		blockSilverOre = new OreBlock("silver_ore", 3, 15);
+		blockNickelOre = new OreBlock("nickel_ore", 3, 15, 3);
+		blockManganeseOre = new OreBlock("manganese_ore", 3, 15, 3);
+		blockVanadiumOre = new OreBlock("vanadium_ore", 3, 15, 4);
+		blockRhodiumOre = new OreBlock("rhodium_ore", 3, 15, 5);
+		blockSilverOre = new OreBlock("silver_ore", 3, 15, 5);
 
 		
 		//blocks of ingots
