@@ -1,4 +1,50 @@
 itemGroup.tabsurvivaladditions=Survival Additions
+
+
 tile.survivaladditions_copper_ore.name=Copper Ore
+tile.survivaladditions_tin_ore.name=Tin Ore
+tile.survivaladditions_zinc_ore.name=Zinc Ore
+tile.survivaladditions_nickel_ore.name=Nickel Ore
+tile.survivaladditions_manganese_ore.name=Manganese Ore
+tile.survivaladditions_vanadium_ore.name=Vanadim Ore
+tile.survivaladditions_rhodium_ore.name=Rhodium Ore
+tile.survivaladditions_aluminum_ore.name=Aluminum Ore
+tile.survivaladditions_silver_ore.name=Silver Ore
+
+
+
+
 tile.survivaladditions_copper_block.name=Block of Copper
+tile.survivaladditions_tin_block.name=Block of Tin
+tile.survivaladditions_zinc_block.name=Block of Zinc
+tile.survivaladditions_nickel_block.name=Block of Nickel
+tile.survivaladditions_manganese_block.name=Block of Manganese
+tile.survivaladditions_vanadium_block.name=Block of Vanadium
+tile.survivaladditions_rhodium_block.name=Block of Rhodium
+tile.survivaladditions_aluminum_block.name=Block of Aluminum
+tile.survivaladditions_brass_block.name=Block of Brass
+tile.survivaladditions_bronze_block.name=Block of Bronze
+tile.survivaladditions_invar_block.name=Block of Invar
+tile.survivaladditions_titanium_block.name=Block of Titanium
+tile.survivaladditions_silver_block.name=Block of Silver
+tile.survivaladditions_palladium_block.name=Block of Palladium
+tile.survivaladditions_steel_block.name=Block of Steel
+
+
+
 item.survivaladditions_copper_ingot.name=Copper Ingot
+item.survivaladditions_tin_ingot.name=Tin Ingot
+item.survivaladditions_zinc_ingot.name=Zinc Ingot
+item.survivaladditions_nickel_ingot.name=Nickel Ingot
+item.survivaladditions_manganese_ingot.name=Manganese Ingot
+item.survivaladditions_vanadium_ingot.name=Vanadium Ingot
+item.survivaladditions_rhodium_ingot.name=Rhodium Ingot
+item.survivaladditions_aluminum_ingot.name=Aluminum Ingot
+item.survivaladditions_brass_ingot.name=Brass Ingot
+item.survivaladditions_bronze_ingot.name=Bronze Ingot
+item.survivaladditions_invar_ingot.name=Invar Ingot
+item.survivaladditions_titanium_ingot.name=Titanium Ingot
+item.survivaladditions_silver_ingot.name=Silver Ingot
+item.survivaladditions_palladium_ingot.name=Palladium Ingot
+item.survivaladditions_steel_ingot.name=Steel Ingot
+

@@ -1,0 +1,13 @@
+[0] public static final net.minecraft.item.Item$ToolMaterial net.minecraft.item.Item$ToolMaterial.WOOD
+[1] public static final net.minecraft.item.Item$ToolMaterial net.minecraft.item.Item$ToolMaterial.STONE
+[2] public static final net.minecraft.item.Item$ToolMaterial net.minecraft.item.Item$ToolMaterial.IRON
+[3] public static final net.minecraft.item.Item$ToolMaterial net.minecraft.item.Item$ToolMaterial.EMERALD
+[4] public static final net.minecraft.item.Item$ToolMaterial net.minecraft.item.Item$ToolMaterial.GOLD
+[5] private final int net.minecraft.item.Item$ToolMaterial.harvestLevel
+[6] private final int net.minecraft.item.Item$ToolMaterial.maxUses
+[7] private final float net.minecraft.item.Item$ToolMaterial.efficiencyOnProperMaterial
+[8] private final float net.minecraft.item.Item$ToolMaterial.damageVsEntity
+[9] private final int net.minecraft.item.Item$ToolMaterial.enchantability
+[10] private static final java.lang.String net.minecraft.item.Item$ToolMaterial.__OBFID
+[11] public net.minecraft.item.Item net.minecraft.item.Item$ToolMaterial.customCraftingMaterial
+[12] private static final net.minecraft.item.Item$ToolMaterial[] net.minecraft.item.Item$ToolMaterial.$VALUES
